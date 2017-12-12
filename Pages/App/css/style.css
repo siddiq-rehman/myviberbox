@@ -1,0 +1,282 @@
+html, body, #app, #app>div {
+  height: 100%
+}
+
+.Mdiv{
+	height: 100%
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -45%);
+          transform: translate(-50%, -45%);
+  width: 310px;
+  height: 85vh;
+  max-height: 450px;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
+  border-radius:25px;
+
+}
+
+
+
+
+.bg {
+  width: 100% !important;
+  height: 100% !important;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: url("https://i.ytimg.com/vi/NZlfxWMr7nc/maxresdefault.jpg") no-repeat 0 0;
+ 
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.innermain{
+	border:3px double rgba(0, 0, 0, 08);
+	-webkit-transform: translate(7%, 20%);
+          transform: translate(7%, 20%);
+	width:85%;
+	height:65%;
+	border-radius:25px;
+	max-height:300px;
+}
+
+.uppermain{
+	border:3px double rgba(0, 0, 0, 08);
+	-webkit-transform: translate(7%, 40%);
+          transform: translate(7%, 40%);
+	width:85%;
+	height:10%;
+	border-radius:25px;
+	max-height:300px;
+}
+
+.uppermain p{
+	text-align:center;
+	color:white;
+}
+
+ .SignUp-submit{	
+  position: absolute;
+  z-index: 1;
+  bottom: 60%;
+  right: 33%;
+  color: #fff;
+  border: none;
+  background: #248A52;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 6px 10px;
+  border-radius: 10px;
+  outline: none !important;
+  -webkit-transition: background .2s ease;
+  transition: background .2s ease;
+}
+.SignUp{
+		border:3px double rgba(0, 0, 0, 08);
+	-webkit-transform: translate(15%, 30%);
+          transform: translate(15%, 30%);
+	width:75%;
+	height:30%;
+	border-radius:25px;
+	max-height:300px;
+	
+}
+.SignUp p{
+		  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
+  position: relative;
+  z-index: 2;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  text-align: Center;
+  padding: 5px;
+  font-size:13px;
+  font-style: italic;
+	width:auto;
+	margin:10px;
+	margin-top:33px !important;
+	padding:10px;
+	
+}
+.SignIn{
+		border:3px double rgba(0, 0, 0, 08);
+	-webkit-transform: translate(15%, 40%);
+          transform: translate(15%, 40%);
+	width:75%;
+	height:30%;
+	border-radius:25px;
+	max-height:300px;
+	
+}
+
+.SignIn p{
+		  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
+  position: relative;
+  z-index: 2;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  text-align: Center;
+  padding: 5px;
+  font-size:13px;
+  font-style: italic;
+	width:auto;
+	margin:10px;
+	margin-top:33px !important;
+	padding:10px;
+	
+}
+
+
+ .SignIn-submit{	
+  position: absolute;
+  z-index: 1;
+  bottom: 60%;
+  right: 33%;
+  color: #fff;
+  border: none;
+  background: #248A52;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1;
+  padding: 6px 10px;
+  border-radius: 10px;
+  outline: none !important;
+  -webkit-transition: background .2s ease;
+  transition: background .2s ease;
+}
+
+ .SignUp-submit:hover {
+  background: #1D7745;
+}
+
+ .SignIn-submit:hover {
+  background: #1D7745;
+}
+
+.Un{
+	  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px;
+  font-size:12px;
+	width:auto;
+	margin:10px;
+	padding:10px;
+	
+}
+
+.Un  .InpUn{
+	background: none;
+	border:1px solid rgba(0, 0, 0, 1.5);
+	resize:none;
+	color: rgba(255, 255, 255, 0.7);
+	outline: none !important;
+	font-size:14px;
+	overflow:hidden;
+	width:60%;
+	  margin-left: 5px;
+ padding:5px;
+}
+
+.Fn{
+	  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px;
+  font-size:12px;
+	width:auto;
+	margin:10px;
+	margin-top:20px !important;
+	padding:10px;
+	
+}
+
+.Fn  .InpFn{
+	background: none;
+	border:1px solid rgba(0, 0, 0, 1.5);
+	resize:none;
+	color: rgba(255, 255, 255, 0.7);
+	outline: none !important;
+	font-size:14px;
+	overflow:hidden;
+	width:55%;
+	  margin-left: 5px;
+ padding:5px;
+}
+
+.Pwd{
+	  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: left;
+  padding: 5px;
+  font-size:12px;
+	width:auto;
+	margin:10px;
+	margin-top:20px !important;
+	padding:10px;
+	
+}
+
+.Pwd  .InpPwd{
+	background: none;
+	border:1px solid rgba(0, 0, 0, 1.5);
+	resize:none;
+	color: rgba(255, 255, 255, 0.7);
+	outline: none !important;
+	font-size:14px;
+	overflow:hidden;
+	width:60%;
+	  margin-left: 5px;
+ padding:5px;
+}
+
+
+
+.Error{
+	  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25px;
+          flex: 0 1 25px;
+  position: relative;
+  z-index: 2;
+  
+  color: #fff;
+  
+  text-align: Center;
+  padding: 5px;
+  font-size:10px;
+	width:auto;
+	margin:10px;
+	margin-top:40px !important;
+	padding:10px;
+	
+}
